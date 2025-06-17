@@ -1,0 +1,25 @@
+.telaCarregamento {
+    background: rgba(1, 0, 1, 0.6);
+    z-index: 9999;
+    color: white;
+    position: fixed;
+    width: 99999999px;
+    height: 99999999px;
+    overflow: auto;
+    margin-left: -5000px;
+    margin-top: -5000px;
+}
+
+.imgLoad {
+    position: fixed;
+    width: 100px;
+    height: 100px;
+    top: 50%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -50px;
+}
+.link{
+    color:black;
+    text-decoration: none;
+}
