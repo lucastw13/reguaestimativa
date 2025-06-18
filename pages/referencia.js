@@ -122,7 +122,7 @@ function Referencia() {
             <Modal isOpen={modal} toggle={toggleModal}>
                 <ModalHeader toggle={toggleModal}>Confirmação</ModalHeader>
                 <ModalBody>
-                    Deseja excluir a saída:  {itemModal.descricao}
+                    Deseja excluir a referência:  {itemModal.descricao}
                 </ModalBody>
                 <ModalFooter>
                     <Button color="danger" onClick={()=>deletar(itemModal)}>
