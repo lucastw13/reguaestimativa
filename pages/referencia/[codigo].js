@@ -149,7 +149,7 @@ function Referencia() {
     }
     return (
         <Container>
-            <Menu descricao="Saídas" />
+            <Menu descricao="Referência" />
             <Form>
             
                 <Row>
@@ -164,7 +164,7 @@ function Referencia() {
                     <Col md={10}>
                         <FormGroup>
                             <Label for="descricao">Descricao</Label>
-                            <Input type="text" id="descricao" onChange={mudarDescricao} />
+                            <Input type="textarea" id="descricao" onChange={mudarDescricao} />
                         </FormGroup>
                     </Col>
                 </Row>
@@ -180,7 +180,10 @@ function Referencia() {
                     <Col md={10}>
                         <FormGroup>
                             <Label for="tipo">Tipo</Label>
-                            <Input type="text" id="tipo" onChange={mudarTipo} />
+                            <select name="tipo" id="tipo" onChange={mudarTipo}>
+                                <option value="dev">dev</option>
+                                <option value="qa">qa</option>
+                            </select>
                         </FormGroup>
                     </Col>
                 </Row>

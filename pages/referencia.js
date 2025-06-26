@@ -81,7 +81,7 @@ function Referencia() {
     }
     return (
         <Container>
-            <Menu descricao="Saídas" />
+            <Menu descricao="Referência" />
             <Label for="recorrente">Recorrente</Label>
             <Input type="checkbox" id="recorrente" onChange={mudarRecorrente} />
             <Table>

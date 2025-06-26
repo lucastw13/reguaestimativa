@@ -1,11 +1,11 @@
 import { useState, React, useEffect } from 'react';
-import Menu from '../menu.js';
+import Menu from './menu.js';
 import { Container, Label, Input, Button, Table, Form, Modal, ModalBody, ModalHeader, ModalFooter, FormGroup, Row, Col } from 'reactstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Dado from '../../dado/generico.js'
+import Dado from '../dado/generico.js'
 import { useRouter } from 'next/router'
-import Host from '../../dado/host.js';
-import Carregamento from '../carregamento.js';
+import Host from '../dado/host.js';
+import Carregamento from './carregamento.js';
 import styles from './[codigo].module.css'
 
 function Multiplicador() {

@@ -81,7 +81,7 @@ function Multiplicador() {
     }
     return (
         <Container>
-            <Menu descricao="Saídas" />
+            <Menu descricao="Multiplicador" />
             <Label for="recorrente">Recorrente</Label>
             <Input type="checkbox" id="recorrente" onChange={mudarRecorrente} />
             <Table>
